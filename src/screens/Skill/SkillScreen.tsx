@@ -39,7 +39,7 @@ return (
                   key={i}
                   name={i < skill.level ? "star" : "star-o"}
                   size={22}
-                  color="#FFD700" 
+                  color="#FFD700" // Cor amarela igual à imagem
                   style={styles.star}
                 />
               ))}
